@@ -35,10 +35,13 @@ body {
 #circle .text {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
     position: absolute;
     animation: rotate 25s linear infinite;
 }
 #circle .text span {
+    padding: 0 150px;
     left: 50%;
     position: absolute;
     font-size: 1.2em;
